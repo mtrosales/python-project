@@ -16,4 +16,5 @@ steps:
     addToPath: true
     architecture: 'x64'
 
-- script: python python-project/hello_world.py
+# Testing running python file
+- script: python hello_world.py
