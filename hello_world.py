@@ -5,7 +5,8 @@
 #print('Test has been mereged to master')
 
 # changes from test2
-import Tkinter
-top = Tkinter.Tk()
-# Code to add widgets will go here...
-top.mainloop()
+from tkinter import *
+from tkinter import ttk
+root = Tk()
+ttk.Button(root, text="Hello World").grid()
+root.mainloop()
