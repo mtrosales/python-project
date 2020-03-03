@@ -5,7 +5,7 @@
 #print('Test has been mereged to master')
 
 # changes from test2
-
+from tkinter import *
 from tkinter import ttk
 root = Tk()
 ttk.Button(root, text="Hello World").grid()
